@@ -107,6 +107,3 @@ def main():
 
         pygame.display.update()
         fps.tick(30)
-        
-if __name__ == '__main__':
-    main()
