@@ -109,3 +109,4 @@ def main():
         fps.tick(30)
         
 if __name__ == '__main__':
+    main()
