@@ -57,7 +57,7 @@ def main():
         for asteroid in collide_list:
             asteroid_list.remove(asteroid)
             ship.damage()
-       #blasts.collide(asteroids)
+        #blasts.collide(asteroids)
         for blast in blast_list:
             hit_list = pygame.sprite.spritecollide(blast, asteroid_list, True)
             for asteroid in hit_list:
@@ -109,4 +109,3 @@ def main():
         fps.tick(30)
         
 if __name__ == '__main__':
-    main()
