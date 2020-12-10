@@ -12,7 +12,7 @@ def main():
     pygame.init()
     total_score = 0
     fps = pygame.time.Clock()
-    window = pygame.display.set_mode((720, 480))
+    window = pygame.display.set_mode((WIDTH, HEIGHT))
 
     ship = SpaceShip(WIDTH, HEIGHT, 0, 0)
     asteroid_list = pygame.sprite.Group()
@@ -107,3 +107,6 @@ def main():
 
         pygame.display.update()
         fps.tick(30)
+
+if __name__ == '__main__':
+    main()
